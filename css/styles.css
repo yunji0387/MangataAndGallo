@@ -158,6 +158,23 @@ main {
   border-radius: 5px;
 }
 
+.intro-description {
+  background-color: #e9e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro-title {
+  background-color: #e9e8e8;
+  color: black;
+  font-weight: 900;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 30px;
+}
+
 .intro-text {
   background-color: #e9e8e8;
   color: #535353;
@@ -190,6 +207,7 @@ main {
   align-items: center;
   flex-direction: row;
   width: 80%;
+  background-color: #e9e8e8;
 }
 
 .category-item {
@@ -197,6 +215,11 @@ main {
   height: 10rem;
   border-radius: 5px;
   margin: 1rem 2.2rem;
+  transition: 0.2s;
+}
+
+.category-item:hover {
+  transform: scale(1.1);
 }
 
 .category-img {
@@ -208,12 +231,16 @@ main {
 }
 
 .category-text {
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 20px;
   text-align: center;
   text-shadow: 2px 2px black;
   margin-top: -2rem;
+}
+
+.category-text:hover {
+  /* font-size: 25px; */
 }
 /* main section above */
 
